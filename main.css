@@ -47,6 +47,7 @@ body {
     flex-direction: row;
     justify-content: space-evenly;
     align-items: center;
+    text-shadow: 0px 0px 10px #a686f1;
 
     border-image:  url("data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAFQAAABUCAYAAAAcaxDBAAAB3klEQVR4Xu2cy5KFIAwFuf//0TN7ZsqUSePF0G6RQ9IcXmr5GV4ogQ+qptgQKGwCgW4A9GeKYXWnvKq9DIxXJZgwYCk/gf4lLtCEC6+qPA4Ujr+XXGbI9yIAZyNQgcIEYLn/HBpNytXyOYWqXlT/0fYEOv4cv6MOuiwXqEBvO+rrQx6eps+Sc9sE97dABQoTgOUyDo22FXCI41XtCdTHd8vfg5VGhA7dwKH0HNlKL+PQVgDoZAQKExWoQGECsJwOFShMAJbToRsALZ0k4PhXyJXyyzi01OAKArBmKT+BbnD0LPUg7KYVcqX8Mg5dkUQbTYHCXSlQgcIEYLkdvhyBUwrlokWnVC7Qhp/ihJaCbyg5cIzrt7A69AGHwoY4S85tE9zfAhUoTACWyzg0WiXhEB+XK+UnUB/fLXesDoURPw4Ujr+XXGYO7UUAzkagAoUJwHI6VKAwAVhOhwoUJgDLZRxa2vgm4n9VewI98CyvQxPD+qpKe6Awr15ymTm0FwE4G4EKFCYAy+3woUO06FTLZ2RVPX8zNBEV6ARkHlURIB0KO+rrQOFp+iw5t01wfwtUoDABWC7j0LurajXkV7UnUJ+H+t8mh3yVwMn1M3PoybzC3AUaIrp3g0Dv8Qrv/gXX0aBVwb7tUQAAAABJRU5ErkJggg==") 28 /  10px / 0 round;
     border-width:  10px;
@@ -87,11 +88,12 @@ body {
     display: flex;
     justify-content: center;
     align-items: center; 
-    margin: 10px;
+    /* margin: 10px; */
+    margin-top: 20px;
 }
 .avatar {
     display: flex;
-    justify-content: center;
+    justify-content: flex-start;
     align-items: flex-start;
     /* width: 100%;
     height: 100%; */
@@ -107,14 +109,30 @@ body {
 }
 .user-info {
     /* background-color: red; */
-    margin: 2vw;
+    /* margin: 2vw; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.user {
+    /* background-color: bisque; */
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10px;
 }
 .username {
+    font-size: 12px;
+}
+.activity {
     font-size: 12px;
 }
 .bio {
     font-size: 12px;
     color: bisque;
+    width: 70%;
 }
 .box2 {
     background-color: rgba(57, 27, 27, 0.945);
@@ -125,6 +143,6 @@ body {
     box-shadow: 20px 0px 150px rgb(19,15,249, 0.86);
     display: flex;
     flex-direction: column;
-    justify-content: center;
+    /* justify-content: center; */
     align-items: center;
 }
