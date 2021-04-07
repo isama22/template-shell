@@ -125,7 +125,9 @@ footer {
 .post-divider {
     border-bottom: red solid 1px;
 }
-
+.post-box:hover {
+    box-shadow: 0px 0px 15px 0px rgba(255, 136, 0, 0.89);
+}
 .tags {
     border-left: red 1px solid;
     width: 20%;
@@ -146,7 +148,9 @@ footer {
     text-decoration: underline 1px red;
     padding: 20px;
 }
-
+.tag>p:hover {
+    color: red;
+}
 .avatar-border {
     border: solid 1px red;
     padding: 10px;
