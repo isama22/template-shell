@@ -104,7 +104,19 @@ footer {
     width: 20%;
     height: 100%;
 }
-
+.tag-header {
+    /* border-bottom: solid 1px red;
+    height: 10%; */
+    text-decoration: underline 1px red;
+    padding: 20px;
+    color: bisque;
+}
+.tag {
+    color: bisque;
+    font-size: 12px;
+    text-decoration: underline 1px red;
+    padding: 20px;
+}
 .avatar-border {
     border: solid 1px red;
     padding: 10px;
