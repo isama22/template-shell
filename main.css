@@ -10,7 +10,9 @@ body {
     height: 100%;
     /* position: fixed; */
 }
-
+a {
+    cursor: url(https://i.postimg.cc/C5RhzBfz/Ellipse-1.png), auto;
+}
 .background {
     /* background-color: #70F0E5;
     width: 100%;
@@ -180,6 +182,7 @@ footer {
     align-items: flex-start;
     /* width: 100%;
     height: 100%; */
+    
 }
 
 .avatar:hover {}
@@ -305,20 +308,17 @@ footer {
 
 .hover-div {
     display: none;
-    /* background: #643aff; */
-    margin-left: 18px;
-    /* padding: 10px; */
+    /* background: #653aff98; */
+    margin-left: 28px;
+    padding: 10px;
     position: absolute;
     z-index: 1000;
     /* width:100px;
     height:100px; */
-    /* border-radius: 60px; */
-    /* background-image: url(https://i.postimg.cc/4y1ygytx/diamond.jpg);
-    background-color: transparent; */
-
 }
 
-a {
-    cursor: url(https://i.postimg.cc/C5RhzBfz/Ellipse-1.png), auto;
+
+.waters {
+    height: 200px;
 }
 
