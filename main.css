@@ -3,6 +3,7 @@ body {
     font-family: arial;
     font-size: 15px;
     color: #C4756B;
+    cursor: url(https://i.postimg.cc/C5RhzBfz/Ellipse-1.png), auto;
 }
 
 .background {
@@ -101,18 +102,21 @@ footer {
     height: 100px;
     width: 120px;
     /* background-color: #DAD9D9; */
-    box-shadow: 0px 0px 15px 3px rgba(255,138,0,0.42);
+    box-shadow: 0px 0px 15px 0px rgba(255,138,0,0.42);
     border: solid 1px red;
     /* margin-top: 40px;
     margin-left: 40px; */
     z-index: 1;
     margin: 20px;
     padding-left: 20px;
+    font-size: 12px;
 }
-
+.post-divider {
+    border-bottom: red solid 1px;
+}
 .tags {
     border-left: red 1px solid;
-    width: 10%;
+    width: 20%;
     height: 100%;
 }
 .tag-header {
