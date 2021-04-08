@@ -1,6 +1,7 @@
 body {
     margin: 0px;
     /* font-family: 'Josefin Sans', sans-serif; */
+    font-family: Arial, Helvetica, sans-serif;
     font-size: 15px;
     color: #8f322d;
     cursor: url(https://i.postimg.cc/C5RhzBfz/Ellipse-1.png), auto;
@@ -185,7 +186,9 @@ footer {
     
 }
 
-.avatar:hover {}
+.avatar-img:hover {
+    cursor: url(https://i.postimg.cc/mrNRz9PT/output-onlinepngtools-14.png), auto;
+}
 
 .avatar-img {
     width: 12vw;
@@ -300,8 +303,22 @@ footer {
     width: 99%;
     height: 99%;
     margin: 10px;
+    overflow: scroll;
 }
-
+.text-header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-bottom: solid 1px bisque;
+    margin: 10px;
+}
+.images {
+    display: flex;
+    flex-direction: column;
+}
+.landing-img {
+    width: 200px;
+}
 .avatar:hover .hover-div {
     display: block;
 }
