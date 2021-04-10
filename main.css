@@ -186,9 +186,9 @@ footer {
     
 }
 
-.avatar-img:hover {
+/* .avatar-img:hover {
     cursor: url(https://i.postimg.cc/mrNRz9PT/output-onlinepngtools-14.png), auto;
-}
+} */
 
 .avatar-img {
     width: 12vw;
@@ -263,15 +263,18 @@ footer {
 }
 
 .landing-broider {
-    border-image: url("data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACoAAAAqCAYAAADFw8lbAAAA+ElEQVRYR+1YQQrDMAxrT7vvc33jPrf7TiuFdYcMIytRCmLutbalyIoDXheTbzXhuciJvp6P93H4232T1pYWOwheRrQFmgV8Wi6L96NoNlHl7Sxe2Pqskgiot04rhC9RpJCq5f/n0V7lsp5k6/vOUfakV8XLFZ1FvIiqlR0e+CpCaFr4E1Upparjd5nQG488xCrH4n0VZRNZYm08i+fX+lGFZuf7jyf15UGKI7zyKFKQ/V+KsoqheLmi6FIgQtF/X6LoaetVJMrL4tXu6dyPZj2L4oafUNQ6RCBa7cAlGQIuj35W6VEHfMfTaGuznmRx5IqyBLLxNkR3GZBAOqd8UU8AAAAASUVORK5CYII=") 14 / 14px / 0 round;
+    /* border-image: url("data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACoAAAAqCAYAAADFw8lbAAAA+ElEQVRYR+1YQQrDMAxrT7vvc33jPrf7TiuFdYcMIytRCmLutbalyIoDXheTbzXhuciJvp6P93H4232T1pYWOwheRrQFmgV8Wi6L96NoNlHl7Sxe2Pqskgiot04rhC9RpJCq5f/n0V7lsp5k6/vOUfakV8XLFZ1FvIiqlR0e+CpCaFr4E1Upparjd5nQG488xCrH4n0VZRNZYm08i+fX+lGFZuf7jyf15UGKI7zyKFKQ/V+KsoqheLmi6FIgQtF/X6LoaetVJMrL4tXu6dyPZj2L4oafUNQ6RCBa7cAlGQIuj35W6VEHfMfTaGuznmRx5IqyBLLxNkR3GZBAOqd8UU8AAAAASUVORK5CYII=") 14 / 14px / 0 round;
     border-width: 14px;
-    border-style: solid;
+    border-style: solid; */
     width: 95%;
     height: 90%;
     margin: 10px;
     display: flex;
     justify-content: center;
     align-items: center;
+    border-image:  url("data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACoAAAAqCAYAAADFw8lbAAAA8UlEQVRYR+2YUQuEMAyDt///oz08znuYlDRbJgQrvtkt8WvXQXszebqJzyY3erR2nD/fv6/ukW522nrM6Ci0S/hindW7Ec0uVCU1qxemPksSCc3uM4LwNYoIqVL+vhqdJZetSXZ/3z7K/ulT8XKiu4yXUTXZ5YavMoS6hb9RFSnVPn6HCd3xqIZYcqzenyi7kDU2xrN6fqlfJbR7vX97Uh8eRBzpVY0iguz3IsoSQ/FyouhQIEPRd1+j6GqbJRKty+rV7Omaj2ZrFsUtX6EodchANNqBQzIkXDX6G6VHGfBtT6upzdYkqyMnyhrIxtsY/QBNC6ArzpagNAAAAABJRU5ErkJggg==") 14 /  14px / 0 round;
+    border-width:  14px;
+    border-style:  solid;
 }
 
 .landing-inner-broider {
@@ -326,7 +329,8 @@ footer {
 .hover-div {
     display: none;
     /* background: #653aff98; */
-    margin-left: 28px;
+    margin-left: 68px;
+    margin-top: 60px;
     padding: 10px;
     position: absolute;
     z-index: 1000;
