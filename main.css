@@ -302,7 +302,8 @@ footer {
 }
 
 .landing-text {
-    background-color: rgba(100, 237, 191, 0.151);
+    /* background-color: rgba(100, 237, 191, 0.151); */
+    border: solid 1px red;
     width: 99%;
     height: 99%;
     margin: 10px;
